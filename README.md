@@ -1,10 +1,10 @@
-Trabalho para o Curso de Dispositivos Móveis FATEC <br>
-Ionic Sorteio (Desafie Zolthar)<br>
-Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).
-Participantes:
-Daniel Doria
-Rafaela Rodrigues
-Vanessa Frerichs
+<h1><b>Trabalho para o Curso de Dispositivos Móveis FATEC</b></h1> <br>
+<h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
+Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).<br>
+Participantes:<br>
+Daniel Doria<br>
+Rafaela Rodrigues<br>
+Vanessa Frerichs<br>
 
 Procedimentos
 Instale o NodeJS
