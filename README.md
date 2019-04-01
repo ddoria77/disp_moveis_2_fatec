@@ -1,11 +1,11 @@
 <h1><b>Trabalho para o Curso de Dispositivos Móveis FATEC</b></h1> <br>
 <h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
-<h3<><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em>,/h3><br>
+<h3<><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em><h3><br>
 
 <b>Participantes:</b><br>
-Daniel Doria<br>
-Rafaela Rodrigues<br>
-Vanessa Frerichs<br>
+<em>Daniel Doria<</em>br>
+<em>Rafaela Rodrigues</em><br>
+<em>Vanessa Frerichs</em><br>
 
 <b>Procedimentos</b><br>
 Instale o NodeJS<br>
@@ -19,8 +19,8 @@ Observação: Se você estiver em um sistema operacional baseado em Unix, será 
 
 <b>Clonando o repositório</b><br>
 Parar clonar o repositório, execute:<br>
-git clone git@github.com:ddoria77/disp_moveis_2_fatec/.git<br>
-() 2) Instalar dependências<br>
+1) git clone git@github.com:ddoria77/disp_moveis_2_fatec/.git<br>
+2) Instalar dependências<br>
 
 npm install<br>
 Executar aplicação<br>
