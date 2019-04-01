@@ -1,27 +1,27 @@
 <h1><b>Trabalho para o Curso de Dispositivos Móveis FATEC</b></h1> <br>
-<h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
+<h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2>
 <h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet (FATEC São Roque).</em></h3>
 <h4>Disposítivos Móveis II - professor Pedro Galvão Junior MVP</h4><br>
-<b>Participantes:</b><br>
-<em>*Daniel Doria</em><br>
-<em>*Rafaela Rodrigues</em><br>
+<b>Participantes:</b>
+<em>*Daniel Doria</em><
+<em>*Rafaela Rodrigues</em>
 <em>*Vanessa Frerichs</em><br>
 
-<b>Procedimentos</b><br>
-Instale o NodeJS<br>
+<b>Procedimentos</b>
+Instale o NodeJS
 Ao instalar o NodeJS o NPM já estará incluso na instalação. O NPM é quem fará a instalação do Ionic 2 e Cordova.<br>
 
-<b>Instalando Ionic 3 e Cordova 8</b><br>
-npm install -g ionic@3<br>
-Instalando Cordova@8<br>
-npm install -g cordova<br>
+<b>Instalando Ionic 3 e Cordova 8</b>
+npm install -g ionic@3
+Instalando Cordova@8<
+npm install -g cordova
 Observação: Se você estiver em um sistema operacional baseado em Unix, será necessário pedir permissão de usuário root<br>
 
-<b>Clonando o repositório</b><br>
-Parar clonar o repositório, execute:<br>
-1) git clone git@github.com:ddoria77/disp_moveis_2_fatec/.git<br>
-2) Instalar dependências<br>
+<b>Clonando o repositório</b>
+Parar clonar o repositório, execute:
+1) git clone git@github.com:ddoria77/disp_moveis_2_fatec/.git
+2) Instalar dependências
 
-npm install<br>
-Executar aplicação<br>
-ionic serve<br>
+npm install
+Executar aplicação
+ionic serve
