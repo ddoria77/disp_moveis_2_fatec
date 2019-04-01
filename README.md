@@ -1,6 +1,6 @@
 <h1><b>Trabalho para o Curso de Dispositivos Móveis FATEC</b></h1> <br>
 <h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
-<h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet (FATEC São Roque).</em></h3><br>
+<h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet (FATEC São Roque).</em></h3>
 <h4>Disposítivos Móveis II - professor Pedro Galvão Junior MVP</h4><br>
 <b>Participantes:</b><br>
 <em>*Daniel Doria</em><br>
