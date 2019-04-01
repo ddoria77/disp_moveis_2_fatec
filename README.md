@@ -3,9 +3,9 @@
 <h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet (FATEC São Roque).</em></h3>
 <h4>Disposítivos Móveis II - professor Pedro Galvão Junior MVP</h4><br>
 <b>Participantes:</b>
-<em>*Daniel Doria</em><
-<em>*Rafaela Rodrigues</em>
-<em>*Vanessa Frerichs</em><br>
+<p><em>*Daniel Doria</em></p>
+<p><em>*Rafaela Rodrigues</em></p>
+<p><em>*Vanessa Frerichs</em><br></p>
 
 <b>Procedimentos</b>
 Instale o NodeJS
