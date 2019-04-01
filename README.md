@@ -2,10 +2,10 @@
 <h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
 <h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em></h3><br>
 
-<b>Participantes:</b>
-*Daniel Doria</b>
-*Rafaela Rodrigues</b>
-*Vanessa Frerichs</b>
+<b>Participantes:</b><br>
+<em>*Daniel Doria</em><br>
+<em>*Rafaela Rodrigues</em><br>
+<em>*Vanessa Frerichs</em><br>
 
 <b>Procedimentos</b><br>
 Instale o NodeJS<br>
