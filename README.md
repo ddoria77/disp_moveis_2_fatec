@@ -1,6 +1,6 @@
 <h1><b>Trabalho para o Curso de Dispositivos Móveis FATEC</b></h1> <br>
 <h2><b>Ionic Sorteio (Desafie Zolthar)</b></h2><br>
-<h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em><h3><br>
+<h3><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em></h3><br>
 
 <b>Participantes:</b>
 *Daniel Doria</b>
