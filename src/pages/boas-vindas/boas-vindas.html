@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Desafie Zolthar
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding class="getstart bg-style">
+  <div id="box-texto">
+  <h1 class="texto"><b>{{nome_usuario}}!!!</b></h1>
+  <h2 class="texto">Então você quer desafiar Zolthar...</h2>
+  <h4 class="texto">Que comecem os jogos</h4>
+  </div>
+
+<div padding>
+  <button block ion-button (click)="sorteio()" color="light" border-radius ="15" min-width="70" id="btn">Sorteio</button>
+</div>
+
+<div padding>
+  <ion-card *ngIf="num_sorteado">
+    <ion-card-header>
+      <h1>Dê seu palpite</h1>
+    </ion-card-header>
+    <ion-card-content >
+        <div padding *ngIf="inputNumero">
+          <h3>Você tem até 10 tentativas</h3>
+          <ion-item>
+            <ion-input type="number" [(ngModel)]="tente" required></ion-input>
+          </ion-item>
+           <div id="box-btn1">
+             <button block ion-button (click)="tentativa()" color="dark" expand="block" shape="round" class="btn-todos">chute</button>
+             <button block ion-button (click)="tentarNovamente()" color="dark" expand="block" shape="round" class="btn-todos">cancelar partida</button>
+           </div>
+           <div id="box-btn2">
+             <button block ion-button (click)="limparTentativa()" color="dark" expand="block" shape="round" class="btn-todos">apagar número</button>
+           <button block ion-button (click)="limparUserList()" color="dark" expand="block" shape="round" class="btn-todos">limpar lista</button>
+          </div>
+
+          <ion-item *ngIf="count">
+          <p><strong >Tentativa de número {{this.count}}</strong></p>
+          </ion-item>
+        </div>
+
+        <div padding>
+            <ion-item *ngIf="mais">
+            <p><strong style="color:orangered">{{tentativaMsg}}</strong></p>
+            </ion-item>
+            <ion-item *ngIf="menos">
+            <p><strong style="color:blue">{{tentativaMsg}}</strong></p>
+            </ion-item>
+            <ion-item *ngIf="igual">
+            <p><strong style="color:green">{{tentativaMsg}}</strong></p>
+            <button block ion-button (click)="tentarNovamente()" color="light" border-radius ="15" min-width="70" id="btn-chute">Jogar Novamente</button>
+            </ion-item>
+            <ion-item *ngIf="acabou">
+            <p><strong style="color:red">{{tentativaMsg}}</strong></p>
+            <button block ion-button (click)="tentarNovamente()" color="light" border-radius ="15" min-width="70" id="btn-chute">Tentar Novamente</button>
+           </ion-item>
+        </div>
+    </ion-card-content>
+
+      <ion-card id="lista_user">
+          <ion-card-header>
+            <h1 style="color:white">Suas tentativas</h1>
+            </ion-card-header>
+            <ion-card-content>
+            <ion-item *ngFor="let tent of guardaTente" style="background-color:#4e2026">
+              <p style="color:white">Número escolhido:  {{tent}}</p>
+            </ion-item>
+            <ion-item *ngIf="end">
+              <p style="color:white;background-color:#4e2026;"><b>Número sorteado foi : {{this.num_sorteado}}</b></p>
+            </ion-item>
+            </ion-card-content>
+      </ion-card>
+
+    </ion-card>
+</div>
+
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+      <ion-title style="text-align:right">2019.01</ion-title>
+    </ion-toolbar>
+  </ion-footer>

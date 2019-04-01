@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Desafie Zolthar
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="getstart bg-style">
+  <div id="box-texto">
+  <h1 class="texto">Seja bem-vindo</h1>
+  <h2 class="texto">Aos domínios de Zolthar</h2>
+  <h4 class="texto">Diga-me seu nome</h4>
+  </div>
+
+  <ion-list>
+      <ion-item>
+        <ion-input type="string" [(ngModel)]="nome" required></ion-input>
+      </ion-item>
+
+    </ion-list>
+    <div padding>
+    <button block ion-button (click)="pegaNome()" color="light" border-radius ="15" min-width="70" id="btn">Diga</button>
+    </div>
+
+
+</ion-content>
+  <ion-footer>
+        <ion-toolbar>
+          <ion-title style="text-align:right">2019.01 </ion-title>
+        </ion-toolbar>
+      </ion-footer>
