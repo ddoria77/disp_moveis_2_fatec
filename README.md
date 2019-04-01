@@ -3,9 +3,9 @@
 <h3<><em>Projeto desenvolvido para a disciplina de Sistemas para a Internet(professor Pedro Galvão Junior).</em><h3><br>
 
 <b>Participantes:</b><br>
-<em>Daniel Doria</em><br>
-<em>Rafaela Rodrigues</em><br>
-<em>Vanessa Frerichs</em><br>
+*Daniel Doria<br>
+*Rafaela Rodrigues<br>
+*Vanessa Frerichs<br>
 
 <b>Procedimentos</b><br>
 Instale o NodeJS<br>
